@@ -1,0 +1,132 @@
+/* Responsive Layout & Mobile Optimizations */
+
+@media (max-width: 1080px) {
+  .workspace-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .image-viewport {
+    height: 320px;
+  }
+
+  .top-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .banner-samples {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 0.75rem 1rem;
+  }
+
+  .panel-header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .brand-subtitle {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .privacy-badge span {
+    display: none;
+  }
+
+  .main-content {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .image-viewport {
+    height: 280px;
+  }
+
+  .image-toolbar {
+    justify-content: center;
+    gap: 0.4rem;
+  }
+
+  .toolbar-group {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ocr-config-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .language-selector-group {
+    width: 100%;
+  }
+
+  .btn-extract {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .btn-stop-ocr {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .export-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .export-buttons {
+    width: 100%;
+  }
+
+  .btn-export {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .toast-container {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+  }
+
+  .toast {
+    min-width: unset;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .adjustments-panel.open {
+    grid-template-columns: 1fr;
+  }
+
+  .editor-stats-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .file-meta-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

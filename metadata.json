@@ -1,0 +1,6 @@
+{
+  "name": "Image to Text Converter - Professional OCR Tool",
+  "description": "High-performance client-side OCR web application to extract text from images and PDF documents with crop, rotate, multi-language support (English, Hindi, Bengali, Assamese), and TXT/PDF/DOCX export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
